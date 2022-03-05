@@ -1,0 +1,80 @@
+body{
+  font-size: 50px;
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+}
+
+h5{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+img{
+  height: 80px;
+  width: 80px;
+}
+
+.top{
+  background-color: #00C897;
+  font-family: 'Smooch Sans', sans-serif;
+  color: #FFD365;
+  height: 400px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 2px 2px #FDFFA9;
+}
+
+.middle{
+  background-color: #FFD365;
+  font-family: 'Smooch Sans', sans-serif;
+  color: #00C897;
+  height: 400px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 2px 2px #FDFFA9;
+}
+
+.bottom{
+  background-color: #FDFFA9;
+  font-family: 'Smooch Sans', sans-serif;
+  color: #019267;
+  height: 400px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 2px 2px #FFD365;
+}
+
+.skills{
+  display: inline-block;
+}
+
+.python{
+  display: inline-block;
+  margin: 20px;
+}
+
+.java{
+  display: inline-block;
+  margin: 20px;
+}
+
+.javascript{
+  display: inline-block;
+  margin: 20px;
+}
+
+.html{
+  display: inline-block;
+  margin: 20px;
+}
+
+.css{
+  display: inline-block;
+  margin: 20px;
+}
