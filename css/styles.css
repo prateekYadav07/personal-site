@@ -20,6 +20,11 @@ img{
   width: 80px;
 }
 
+.base{
+  height:auto;
+  width:auto;
+}
+
 .top{
   background-color: #00C897;
   font-family: 'Smooch Sans', sans-serif;
