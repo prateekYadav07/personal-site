@@ -62,9 +62,8 @@ img{
 }
 
 .about-me-img{
-  position: relative;
-  width: 400px;
-  text-align: left;
+  width: 30%;
+  text-align: right;
   float: right;
 }
 
@@ -72,7 +71,6 @@ img{
   padding-left: 80px;
   height: 500px;
   width: 60%;
-  position: relative;
   text-align:center;
   display: inline-block;
   font-family: 'Fredoka', sans-serif;
