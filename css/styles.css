@@ -1,9 +1,19 @@
 body{
   margin: 0;
+  padding: 0;
 }
 
 h1{
   margin: 0;
+}
+
+h2{
+  margin: 0;
+}
+
+h3{
+  margin: 0;
+  display: inline-block;
 }
 
 h5{
@@ -15,7 +25,7 @@ p{
   display: inline-block;
 }
 
-img{
+.top-img{
   padding: 15px;
   height: 80px;
   width: 80px;
@@ -33,7 +43,8 @@ img{
   color: #00FFDD;
   font-family: 'Sacramento', cursive;
   font-size: 50px;
-  height: 50%;
+  height: auto;
+  width:auto;
   margin: 0;
   text-align: center;
   text-shadow: 2px 2px #DFF6FF;
@@ -43,70 +54,76 @@ img{
 .about-me{
   padding: 50px;
   background-color: #019267;
-  height: 500px;
+  height: auto;
+  width: auto;
   margin: 0;
+  text-align: center;
 }
 
 
 .about-me-head{
-  font-family: 'Smooch Sans', sans-serif;
+  font-family: 'League Spartan', sans-serif;
   font-size: 50px;
   text-align: center;
   text-shadow: 2px 2px #DFF6FF;
   color: #FDFFA9;
+
 }
 
 .gamer{
-  height: 300px;
-  width: 300px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
 }
 
 .about-me-img{
-  padding-right: 100px;
-  width: 30%;
-  text-align: right;
-  float: right;
+  text-align: center;
 }
 
 .about-me-para{
-  padding-left: 80px;
-  height: 500px;
-  width: 50%;
-  text-align:center;
   display: inline-block;
+  position: relative;
+  height: auto;
   font-family: 'Fredoka', sans-serif;
   color: #FDFFA9;
+  width: 300;
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   text-shadow: none;
-  float: center;
+  margin-top: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
 }
+
 .middle{
-  background-color: #FFD365;
-  font-family: 'Smooch Sans', sans-serif;
+  background-color: #00C897;
+  font-family: 'League Spartan', sans-serif;
   font-size: 50px;
-  color: #00C897;
-  height: 80%;
+  color:  #FDFFA9;
+  height: auto;
   padding: 50px;
   margin: 0;
   text-align: center;
-  text-shadow: 2px 2px #FDFFA9;
+  text-shadow: 2px 2px #DFF6FF;
 }
 
 .bottom{
-  background-color: #FDFFA9;
-  font-family: 'Smooch Sans', sans-serif;
+  background-color: #019267;
+  font-family: 'League Spartan', sans-serif;
   font-size: 50px;
-  color: #019267;
-  height: 50%;
-  padding: 50px;
+  color: #FDFFA9;
+  height: auto;
+  padding: 50px 50px 0 50px;
   margin: 0;
   text-align: center;
-  text-shadow: 2px 2px #FFD365;
+  text-shadow: 2px 2px #DFF6FF;
 }
 
 .skills{
-  display: inline-block;
+  position: relative;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 30px;
+  text-shadow: none;
 }
 
 .python{
@@ -132,4 +149,72 @@ img{
 .css{
   display: inline-block;
   margin: 20px;
+}
+
+.mountain{
+  margin: 0;
+}
+
+.contact-me{
+  background-color: #00C897;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 30px;
+  color:  #FDFFA9;
+  height: auto;
+  padding: 50px;
+  margin: 0;
+  text-align: center;
+  text-shadow: none;
+}
+
+.contact-me-msg{
+  font-family: 'Fredoka', sans-serif;
+  text-shadow: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #151D3B;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2FA4FF;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer-link{
+  color: #2FA4FF;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.footer{
+  padding: 50px;
+  height: 50px;
+  background-color: #151D3B;
+  color: #00FFDD;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: none;
 }
