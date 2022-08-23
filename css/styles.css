@@ -26,6 +26,13 @@ p{
   display: inline-block;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
 .top-img{
   padding: 15px;
   height: 80px;
@@ -49,8 +56,15 @@ p{
   margin: 0;
   text-align: center;
   text-shadow: 2px 2px #DFF6FF;
+  display: flex;
+  flex-direction: column;
 }
 
+.img-con{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 .about-me{
   padding: 50px;
@@ -59,6 +73,9 @@ p{
   width: auto;
   margin: 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
@@ -106,6 +123,9 @@ p{
   margin: 0;
   text-align: center;
   text-shadow: 2px 2px #DFF6FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .bottom{
@@ -118,6 +138,9 @@ p{
   margin: 0;
   text-align: center;
   text-shadow: 2px 2px #DFF6FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .skills{
@@ -166,6 +189,10 @@ p{
   margin: 0;
   text-align: center;
   text-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .contact-me-msg{
@@ -191,6 +218,7 @@ p{
   margin: 10px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  width: auto;
 }
 
 .btn:hover {
@@ -209,13 +237,22 @@ p{
   margin: 20px;
 }
 
+.links{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .footer{
   padding: 50px;
-  height: 50px;
+  height: auto;
   background-color: #151D3B;
   color: #00FFDD;
   font-family: 'Fredoka', sans-serif;
   font-size: 20px;
   text-align: center;
   text-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
