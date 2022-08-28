@@ -66,6 +66,14 @@ p{
   justify-content: center;
 }
 
+.quote{
+  display: inline;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 40px;
+  color: #FDFFA9;
+  text-shadow: 1px 1px #DFF6FF;
+}
+
 .about-me{
   padding: 50px;
   background-color: #019267;
